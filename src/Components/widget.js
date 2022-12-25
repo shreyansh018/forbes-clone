@@ -97,7 +97,7 @@ function Widget() {
 
             {/* right div */}
 
-            <div className="pl-10 ml-10 rounded-lg grid grid-cols-4">
+            <div className="pl-10 ml-10 rounded-lg grid grid-cols-4 divide-x-2 pt-3">
               <div>
                 <div>
                   <h1 className="text-left text-xs text-gray-400">
@@ -107,13 +107,9 @@ function Widget() {
                 <div>
                   <h1 className="text-lg">$200 bonus</h1>
                 </div>
-
-                <div className="flex justify-end pr-5">
-                  <div class="vl"></div>
-                </div>
               </div>
 
-              <div>
+              <div className="pl-2 pr-2">
                 <div>
                   <h1 className="text-left text-xs text-gray-400">
                     Annual Fee
@@ -122,13 +118,9 @@ function Widget() {
                 <div>
                   <h1 className="text-lg">$0</h1>
                 </div>
-
-                <div className="flex justify-end pr-2">
-                  <div class="vl"></div>
-                </div>
               </div>
 
-              <div>
+              <div className="pl-2 pr-2">
                 <div>
                   <h1 className="text-left text-xs text-gray-400">
                     Regular APR
@@ -137,13 +129,9 @@ function Widget() {
                 <div>
                   <h1 className="text-lg ">18.74% - 27.49% Variable</h1>
                 </div>
-
-                <div className="flex justify-end">
-                  <div class="vl"></div>
-                </div>
               </div>
 
-              <div className="">
+              <div>
                 <div className="pl-5 pr-5 text-xs ">
                   <h1 className="text-gray-400">Credit Score </h1>
                   <div>
@@ -157,7 +145,7 @@ function Widget() {
           {/* 4th Phase */}
           <div className="pr-20">
             <div className="pl-5 pr-20">
-              <div className="pb-3 flex cursor-pointer">
+              <div className="pb-3 flex cursor-pointer divide-y">
                 <h1 className="text-blue-500 cursor-pointer hover:underline">
                   Why We Picked It
                 </h1>
@@ -170,9 +158,7 @@ function Widget() {
                 />
               </div>
 
-              <div className="pb-1">
-                <hr className="widgetthinline" />
-              </div>
+              <div className="border-b-2"></div>
 
               <div className="pb-3 grid grid-cols-2 cursor-pointer">
                 <h1 className="text-blue-500 cursor-pointer hover:underline">
@@ -187,9 +173,7 @@ function Widget() {
                 />
               </div>
 
-              <div className="pb-1">
-                <hr className="widgetthinline" />
-              </div>
+              <div className="border-b-2"></div>
 
               <div className="pb-3 grid grid-cols-2 cursor-pointer">
                 <h1 className="text-blue-500 cursor-pointer hover:underline">
