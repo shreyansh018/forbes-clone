@@ -48,7 +48,7 @@ function Widget() {
 
             {/* right div */}
 
-            <div className="bg-yellow-50 pl-10 ml-10 rounded-lg">
+            <div className="bg-yellow-50 pl-10 ml-20 rounded-lg">
               <div className="float-left pr-7 pt-4">
                 <img
                   src="https://www.travall.com/media/wysiwyg/images/guarante_img.png"
@@ -62,7 +62,7 @@ function Widget() {
                 </h1>
               </div>
 
-              <div className="mr-10">
+              <div className="mr-20">
                 <h1 className="mr-20 text-sm">
                   Earn 5% cash back in categories that rotate quarterly on up to
                   $1,500 when enrolled, 5% on travel purchased through. Read
