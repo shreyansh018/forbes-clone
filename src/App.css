@@ -48,6 +48,6 @@ hr.thinline {
   height: 60px;
 }
 
-hr.widgetthinline {
+.widgetthinline {
   border-top: 2px thin gray;
 }
