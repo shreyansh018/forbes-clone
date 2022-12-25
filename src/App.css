@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.bodybackground {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #4657a1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footerColor {
+  background-color: #dedede;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Float four columns side by side */
+.column {
+  width: 16%;
+  padding: 20px 20px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+hr.solid {
+  border-top: 5px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+hr.thinline {
+  border-top: 1px solid gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* More Articles Cards CSS */
+.cards {
+  width: 60vw;
+  margin: 30px;
+  row-gap: 3vh;
+  column-gap: 2vw;
+}
+​ .card {
+  width: min-content;
+}
+
+/* widget */
+.vl {
+  border-left: 2px solid black;
+  height: 50px;
+}
+
+hr.widgetthinline {
+  border-top: 2px thin gray;
 }
