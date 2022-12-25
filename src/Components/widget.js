@@ -38,7 +38,7 @@ function Widget() {
           {/* 2nd phase */}
           <div className="flex">
             {/* left div */}
-            <div className="pl-5">
+            <div className="pl-5 cursor-pointer">
               <img
                 src="https://thumbor.forbes.com/thumbor/fit-in/600x300/https://www.forbes.com/advisor/wp-content/uploads/2022/02/2291_10006590-removebg-preview.png"
                 alt="credit-card"
@@ -51,19 +51,19 @@ function Widget() {
             <div className="bg-yellow-50 pl-10 ml-10 rounded-lg">
               <div className="float-left pr-7 pt-4">
                 <img
-                  src="https://thumbor.forbes.com/thumbor/fit-in/600x300/https://www.forbes.com/advisor/wp-content/uploads/2022/02/2291_10006590-removebg-preview.png"
+                  src="https://www.travall.com/media/wysiwyg/images/guarante_img.png"
                   alt=""
-                  width="100px"
+                  width="60px"
                 />
               </div>
               <div>
-                <h1 className="font-sans text-yellow-700 pt-2">
+                <h1 className="font-sans text-yellow-600 pt-2 font-bold">
                   Up to 5X Reward Rate
                 </h1>
               </div>
 
               <div className="mr-10">
-                <h1 className="mr-20">
+                <h1 className="mr-20 text-sm">
                   Earn 5% cash back in categories that rotate quarterly on up to
                   $1,500 when enrolled, 5% on travel purchased through. Read
                   More
@@ -107,7 +107,10 @@ function Widget() {
                 <div>
                   <h1 className="text-lg">$200 bonus</h1>
                 </div>
-                <div class="vl float-right"></div>
+
+                <div className="flex justify-end pr-5">
+                  <div class="vl"></div>
+                </div>
               </div>
 
               <div>
@@ -119,7 +122,10 @@ function Widget() {
                 <div>
                   <h1 className="text-lg">$0</h1>
                 </div>
-                <div class="vl float-right"></div>
+
+                <div className="flex justify-end pr-2">
+                  <div class="vl"></div>
+                </div>
               </div>
 
               <div>
@@ -131,7 +137,10 @@ function Widget() {
                 <div>
                   <h1 className="text-lg ">18.74% - 27.49% Variable</h1>
                 </div>
-                <div class="vl float-right"></div>
+
+                <div className="flex justify-end">
+                  <div class="vl"></div>
+                </div>
               </div>
 
               <div className="">

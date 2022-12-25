@@ -44,8 +44,8 @@ hr.thinline {
 
 /* widget */
 .vl {
-  border-left: 2px solid black;
-  height: 50px;
+  border-left: 1px solid gray;
+  height: 60px;
 }
 
 hr.widgetthinline {

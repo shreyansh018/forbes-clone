@@ -3,14 +3,14 @@ import React from "react";
 function Body() {
   return (
     <div className="pl-10 pr-10 bodybackground">
-      <div className="text-left justify-end flex pr-10">
+      <div className="justify-end flex pr-10">
         <h1 className="cursor-pointer font-bold text-lg hover:underline text-white">
           How We Work?
         </h1>
       </div>
       <div className="pl-20 pt-10">
         <div className="grid grid-cols-2 pl-20 pb-5 pt-2">
-          <div className="justify-end text-left pt-10 pl-10">
+          <div className="justify-end text-left pt-10 pl-10 m-auto">
             <h1 className="font-bold text-5xl text-white">
               Smart Financial Decisions Made Simple
             </h1>

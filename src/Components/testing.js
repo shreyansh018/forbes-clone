@@ -2,11 +2,11 @@ import React from "react";
 
 function Testing() {
   return (
-    <div className="bodybackground pl-20 pr-20">
-      <div className="pl-10 pr-10">
-        <div className="grid grid-cols-5">
+    <div className="pl-20 pr-20">
+      <div className="bg-pink-400 pl-10 pr-10">
+        <div className="grid grid-cols-5 bg-purple-400">
           {/* upper container */}
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/icon-card.svg"
@@ -18,7 +18,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/Best-Retirement-Plans.svg"
@@ -30,7 +30,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/car-insurance.png"
@@ -42,7 +42,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/Private-health-insurance-1.svg"
@@ -54,7 +54,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/life-insurance.png"
@@ -69,9 +69,9 @@ function Testing() {
 
         {/* upper container end */}
 
-        <div className="grid grid-cols-5 pt-5">
+        <div className="grid grid-cols-5 pt-5 bg-gray-400">
           {/* lower container */}
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/Pet-Insurance-For-Pre-Existing-Conditions.png"
@@ -84,7 +84,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/travel-insurance.png"
@@ -96,7 +96,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/home-insurance.svg"
@@ -108,7 +108,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/Broadband.svg"
@@ -120,7 +120,7 @@ function Testing() {
             </div>
           </div>
 
-          <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
+          <div className="bg-blue-200 ml-10 mr-10 rounded-lg p-5">
             <div className="flex justify-center">
               <img
                 src="https://www.forbes.com/advisor/au/wp-content/uploads/2022/09/icon-card.svg"
