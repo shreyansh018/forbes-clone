@@ -6,14 +6,14 @@ function Widget() {
   const [Accordian3, setAccordian3] = useState(false);
   return (
     <div className="p-5">
-      <div className=" ml-10 mr-20">
+      <div className="ml-10 mr-20">
         <h1 className="font-bold text-3xl pb-4">Top Cash-Back Credit Cards</h1>
         <div className="rounded-lg border border-blue-300 py-2">
           {/* inside upper div separation */}
-          <div className="grid grid-cols-2">
+          <div className="grid grid-flow-row-dense lg:grid-cols-2">
             {/* left div */}
             <div>
-              <div className="grid grid-cols-2 pb-2 mr-20 ml-4">
+              <div className="grid grid-cols-3 pb-2 mr-20 ml-4">
                 <h1 className="text-xs pt-1 pl-7 pb-1 rounded-lg bg-blue-200 font-semibold text-blue-800">
                   BEST CASH BACK, BEST NO ANNUAL FEE CARD
                 </h1>
@@ -23,6 +23,10 @@ function Widget() {
                 <h1 className="pl-7 text-3xl font-bold">Chase Freedom Flex℠</h1>
               </div>
             </div>
+
+            {/* middle div */}
+
+            {/* middle div END */}
 
             {/* right div */}
             <div className="text-center pt-3 ml-20 mr-20">
@@ -41,17 +45,18 @@ function Widget() {
           {/* 2nd phase */}
           <div className="flex">
             {/* left div */}
+
             <div className="pl-5 cursor-pointer">
               <img
                 src="https://thumbor.forbes.com/thumbor/fit-in/600x300/https://www.forbes.com/advisor/wp-content/uploads/2022/02/2291_10006590-removebg-preview.png"
                 alt="credit-card"
-                width="150px"
+                className="w-0 lg:w-40"
               />
             </div>
 
             {/* right div */}
 
-            <div className="bg-yellow-50 pl-10 ml-20 rounded-lg">
+            <div className="bg-yellow-50 lg:pl-10 lg:ml-20 rounded-lg">
               <div className="float-left pr-7 pt-4">
                 <img
                   src="https://www.travall.com/media/wysiwyg/images/guarante_img.png"
@@ -79,9 +84,9 @@ function Widget() {
           <div className=" flex pt-1">
             {/* left div */}
 
-            <div className="pl-1">
-              <div className="pl-4 border rounded-full mt-5 mb-5">
-                <div className="pr-2 mt-2 ">
+            <div className="lg:pl-1">
+              <div className="lg:pl-4 lg:mt-5 lg:mb-5 border rounded-full">
+                <div className="pr-2 mt-2">
                   {/* inside div start*/}
                   <div className="flex">
                     <h1 className="text-2xl">5.0</h1>
@@ -100,7 +105,7 @@ function Widget() {
 
             {/* right div */}
 
-            <div className="pl-10 ml-10 rounded-lg grid grid-cols-4 divide-x-2 pt-3">
+            <div className="pl-10 ml-10 rounded-lg grid grid-flow-col-dense lg:grid-cols-4 divide-x-2 pt-3">
               <div>
                 <div>
                   <h1 className="text-left text-xs text-gray-400">

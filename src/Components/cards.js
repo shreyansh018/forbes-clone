@@ -4,7 +4,7 @@ function Cards() {
   return (
     <div className="bodybackground pl-20 pr-20">
       <div className="pl-10 pr-10">
-        <div className="grid grid-cols-5">
+        <div className="grid grid-row-5 lg:grid-cols-5">
           {/* upper container */}
           <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
             <div className="flex justify-center">
@@ -69,7 +69,7 @@ function Cards() {
 
         {/* upper container end */}
 
-        <div className="grid grid-cols-5 pt-5">
+        <div className="grid grid-row-5 pt-5 lg:grid-cols-5">
           {/* lower container */}
           <div className="bg-white ml-10 mr-10 rounded-lg p-5 cursor-pointer transition ease-in-out delay-100 hover:rounded-lg hover:scale-125">
             <div className="flex justify-center">

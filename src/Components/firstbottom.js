@@ -2,8 +2,8 @@ import React from "react";
 
 function Firstbottom() {
   return (
-    <div className="pl-20 pr-20 bg-gray-50">
-      <div className="p-20">
+    <div className="md:pl-10 md:pr-10 lg:pl-20 lg:pl-20 bg-gray-50">
+      <div className="pt-20 lg:p-20">
         <div className="pb-5 pr-10 justify-center">
           <hr className="solid" />
         </div>
@@ -13,8 +13,15 @@ function Firstbottom() {
           </h1>
         </div>
 
+        <div className="md:hidden">
+          <img
+            src="https://thumbor.forbes.com/thumbor/fit-in/419x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/07/Making-the-mos-of-your-money.png"
+            alt=""
+          />
+        </div>
+
         {/* text and image section */}
-        <div className="grid grid-cols-2">
+        <div className="grid grid-row-3 bg-gray-50 lg:grid-cols-2">
           <div className="pt-7">
             <div className="p-2 rounded-2xl cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:rounded-2xl hover:scale-110 hover:bg-indigo-500 duration-150">
               <h1 className="font-bold text-lg">Understanding</h1>
@@ -46,7 +53,7 @@ function Firstbottom() {
             </div>
           </div>
 
-          <div className="justify-center hidden md:inline-flex">
+          <div className="hidden md:hidden lg:flex ">
             <img
               src="https://thumbor.forbes.com/thumbor/fit-in/419x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/07/Making-the-mos-of-your-money.png"
               alt=""

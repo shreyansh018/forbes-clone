@@ -2,15 +2,15 @@ import React from "react";
 
 function Body() {
   return (
-    <div className="pl-10 pr-10 bodybackground">
-      <div className="justify-end flex pr-10">
+    <div className="md:pl-10 md:pr-10 bodybackground">
+      <div className="flex justify-center lg:justify-end pr-10">
         <h1 className="cursor-pointer font-bold text-lg hover:underline text-white">
           How We Work?
         </h1>
       </div>
       <div className="pl-20 pt-10">
-        <div className="grid grid-cols-2 pl-20 pb-5 pt-2">
-          <div className="justify-end text-left pt-10 pl-10 m-auto">
+        <div className="grid lg:grid-cols-2 pl-20 pb-5 pt-2">
+          <div className="pt-10 pl-10 lg:m-auto">
             <h1 className="font-bold text-5xl text-white">
               Smart Financial Decisions Made Simple
             </h1>
@@ -65,7 +65,7 @@ function Body() {
             </div>
           </div>
 
-          <div className="hidden md:inline-flex">
+          <div className="hidden lg:inline-flex">
             <img
               src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/au/wp-content/uploads/2022/07/Advisor-Homepage-US.png"
               width="500"
