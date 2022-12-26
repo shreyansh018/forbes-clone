@@ -6,7 +6,6 @@ import Firstbottom from "./Components/firstbottom";
 import Footer from "./Components/footer";
 import Secondbottom from "./Components/secondbottom";
 import Widget from "./Components/widget";
-import Testing from "./Components/testing";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Firstbottom />
       <Widget />
       <Secondbottom />
-      <Testing />
       <Footer />
     </div>
   );
