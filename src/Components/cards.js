@@ -1,6 +1,6 @@
 import React from "react";
 
-function Testing() {
+function Cards() {
   return (
     <div className="bodybackground pl-20 pr-20">
       <div className="pl-10 pr-10">
@@ -140,4 +140,4 @@ function Testing() {
   );
 }
 
-export default Testing;
+export default Cards;
